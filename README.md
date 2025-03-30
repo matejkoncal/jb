@@ -4,13 +4,18 @@
 
 ## Installation
 
-1. Copy the `git-jb` binary to a directory in your `PATH`, for example:
+1. Compile the binary:
+   ```sh
+   go build -o git-jb .
+   ```
+
+2. Copy the `git-jb` binary to a directory in your `PATH`, for example:
    ```sh
    cp git-jb /usr/local/bin/
    chmod +x /usr/local/bin/git-jb
    ```
 
-2. Set the required environment variables for JIRA authentication:
+3. Set the required environment variables for JIRA authentication:
    ```sh
    export JIRA_USERNAME="your_username"
    export JIRA_TOKEN="your_token"
@@ -51,3 +56,4 @@ ISSUE-123-fix-bug-in-authentication
 
 ## License
 MIT
+
