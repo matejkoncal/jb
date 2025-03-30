@@ -1,4 +1,4 @@
-module jira
+module github.com/uzivatel/jb
 
 go 1.24.1
 
