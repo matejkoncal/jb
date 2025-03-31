@@ -1,4 +1,4 @@
-module github.com/uzivatel/jb
+module github.com/matejkoncal/jb
 
 go 1.24.1
 
